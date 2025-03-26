@@ -1,5 +1,5 @@
 # Experimental-Economics-Paper
-This repository contains the python code pertaining to the paper Flexible Estimation of Parametric Prospect Models using Hierarchical Bayesian Methods. By Kelvin Balcombe and Iain Fraser
+This repository contains the python code and data pertaining to the paper Flexible Estimation of Parametric Prospect Models using Hierarchical Bayesian Methods. By Kelvin Balcombe and Iain Fraser
 
 They were run on conda 4.9.2 with python 3.8.5 with pystan 2.19.1.1. These are run in Microsoft Windows using Jupyter Notebooks
 
