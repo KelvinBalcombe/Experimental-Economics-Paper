@@ -1,5 +1,5 @@
 # Experimental-Economics-Paper
-This repository contains the python code and data pertaining to the paper Flexible Estimation of Parametric Prospect Models using Hierarchical Bayesian Methods. By Kelvin Balcombe and Iain Fraser
+1. This repository contains the python code and data pertaining to the paper Flexible Estimation of Parametric Prospect Models using Hierarchical Bayesian Methods. By Kelvin Balcombe and Iain Fraser
 
 They were run on conda 4.9.2 with python 3.8.5 with pystan 2.19.1.1. These are run in Microsoft Windows using Jupyter Notebooks
 
@@ -31,6 +31,57 @@ Once the MCMC have been run and stored, the the files that generate the results 
 
 z0analyse1.ipynb
 z0analyse2.ipynb
+
+2. The data used to conduct the analysis is contained in an Excel file on Fulldata3. Key variable definitions for the data used in this paper are provided here:
+
+id - Respondent id
+Treat - The survey employed several treatments. These varied by lottery value (Low and High) and by how the prospects where presented. Random or
+grouped by domain which was varied.
+Td1 - Task dummy variables
+Td2
+Td3
+Td4
+Td5
+Td6
+Td7
+Td8
+Td9
+Td10
+Ques - Question order
+Gains - Gain domain
+Loss - Loss domain 
+Mixed - Mixed domain
+kelid - Question order by treatment
+prize1l - Reward 1 left
+prize2l - Reward 2 left
+prize3l - Reward 3 left
+p1left - Prob 1 left
+p2left - Prob 2 left
+p3left - Prob 3 left
+prize1r - Reward 1 right
+prize2r - Reward 2 right
+prize3r - Reward 3 right
+p1right - Prob 1 right
+p2right - Prob 2 right
+p3right - Prob 3 right
+choices - Respondent choice
+Det - The next set of measures relate to the experimental design (see Balcombe and Fraser, 2024)
+typeA
+typeB
+CEPT
+EV
+FOSDOM
+SOSDOM
+EntY
+EntYP
+Diff 
+age - Respondent age
+gender 
+Status 
+school
+Score - Cognitive Reflection Test score
+ 
+
 
 These files rely on the MCMC output from notebooks model0B through to model4B having been run with the MCMC files being stored. The default directories for the output and MCMC are set as they were run but will require modification to correctly specify the path.
 
