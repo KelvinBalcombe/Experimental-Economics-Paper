@@ -25,7 +25,7 @@ model3B.ipynb
 
 must be run. Each of these files correspondes to the model versions as stated in 3.3 and in Table1.  model0B correspeond to model 0 and so forth.
 
-Each of the 4 notebooks model0B through to model4B contains both the Stan code and the statements used to run the models. Each file needs to be run sequantially and in its entirety and both the compiled stan code along with a copy of the MCMC output should then be saved within the working directory. The number of Chains is set to  8 and should be decreased to 4 if the computer that is being used does not have sufficient cores. Each file could take up to 12 hours to run depending on the speed of the computer. 
+Each of the 4 notebooks model0B through to model3B contains both the Stan code and the statements used to run the models. Each file needs to be run sequantially and in its entirety and both the compiled stan code along with a copy of the MCMC output should then be saved within the working directory. The number of Chains is set to  8 and should be decreased to 4 if the computer that is being used does not have sufficient cores. Each file could take up to 12 hours to run depending on the speed of the computer. 
 
 Once the MCMC have been run and stored, the the files that generate the results and graphics are:
 
@@ -83,7 +83,7 @@ Score - Cognitive Reflection Test score
  
 
 
-These files rely on the MCMC output from notebooks model0B through to model4B having been run with the MCMC files being stored. The default directories for the output and MCMC are set as they were run but will require modification to correctly specify the path.
+These files rely on the MCMC output from notebooks model0B through to model3B having been run with the MCMC files being stored. The default directories for the output and MCMC are set as they were run but will require modification to correctly specify the path.
 
 Further information is contained within the notebooks themselves.
 
